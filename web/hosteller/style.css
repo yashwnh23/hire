@@ -1,0 +1,88 @@
+.addValue{display:inline;background: rgba(76, 175, 80);cursor:pointer;padding:10px;
+border: 2px  rgba(15, 15, 80, 0.3) solid;margin-top: 50px;}
+.addValue:hover{border: 3px  rgba(15, 15, 80, 0.3) solid;box-shadow: 1px 1px 2px 2px green;
+}
+.add{height:20%;}
+.wal{width: 80%;margin: auto; display: flex-column;}
+.wal h3{
+float: left;
+font-size: 20px;
+display: block;
+width: 100%;
+}
+.wal h3 i{
+color: red;
+}
+.search{float: right;width: 10%;}
+.header ul{list-style-type: none;margin: 0;padding: 0;}
+.header ul li{display: inline;}
+.header ul:hover li{opacity: 0.2;}
+.header ul li:hover{opacity: 1;}
+.wal form{align-content: center;margin: auto;}
+
+.header{background-image: url('images/bg3.jpg');background-size: 100%;
+background-repeat: no-repeat;height: 60px;}
+.header img{align-content: center;height: 60px;transform: rotate(-30deg)skew(25deg);
+transition: 5s;opacity: 1;}
+.header table{height: 80px;float: right;}
+.header ul li:active{opacity: 0.2;}
+.header a figure{height: 80px;margin: 0px;margin-right: 10px;}
+.header a {height: 60px;width: 40px;line-height: 60px;font-size: 16px;text-align: right;
+text-decoration: none;color: black;padding-top: 16px;padding-bottom: 16px;
+margin-right: 20px;text-transform: uppercase;}
+.header img:hover{/*transform: rotate(30deg)skew(-25deg);*/
+    transform: translate(20px,-5px);opacity: .6;}
+.header a:hover, a.selected {background:#9da5a5;}
+.body{background-image: url('images/bg6.jpg');background-repeat: no-repeat;
+background-size: 100% 100%;height: 400px;}
+.body input{margin-top: 20px;height: 30px;font-size: 18px;text-align: center;}
+.body form{padding-top: 50px;padding-bottom: 50px;text-align: center;}
+.grid img{width:100%;height: auto;}
+.grid{flex: 3;display: grid;grid-gap: 5%;grid-template-columns: 30% 30% 30%;
+position: relative; }
+.footer {left: 0;bottom: 0;width: 100%;height: 30px;background-color: red;
+color: white;text-align: center;}
+.right{flex: 1;}
+.right input{margin-bottom: 10px;float: right;}
+.left{width:100%;}
+.lrform{width: 28%;padding-top: 20px;padding-left: 20px;margin-left: 25%;
+background-color: #d6f3fc;}
+.offer{border-top: limegreen 3px solid;border-bottom: 2px solid;border-right: 2px solid;
+border-left: 2px solid;margin-top: 4px;width: 98%;right: 1%;left: 1%;border-radius: 10px;
+}
+.offer details{text-align: center;padding-top: 5px;padding-bottom: 5px;}
+.offer details p{margin: auto;text-align: center;line-height: 50px;width: 80%;
+border: 5px solid greenyellow;border-radius: 25px;}
+.offer:hover{cursor: pointer;}
+.offer summary{text-decoration: none;text-align: left;padding-top: 5px;
+padding-bottom: 5px;padding-left: 10px;}
+.slider{width: 100%;margin-top: 10px;height: 300px;position: absolute;}
+.img img{min-width: 100%;min-height: 300px;}
+.slideshow-container{width: 90%;height: 300px;margin: auto;display: block;
+position: relative;}
+.numbers{position: absolute;top: 0;padding: 8px 12px;font-size: 12px;}
+.myslides{display: none;}
+.pn>.prev ,.pn>.next{text-align: center;top: 45%;line-height: 25px;font-size: 18px;
+cursor: pointer;width: 50px;height: 25px;border-radius: 25px;background: blue;
+position: absolute;}
+.next{right: 0;}
+.pn>.prev:hover,.pn>.next:hover{background-color: gold;border-radius: 25px;}
+.caption{text-align: center;position: absolute;bottom: 8px;width: 100%;
+color: #f2f2f2;font-size: 15px;padding: 8px 22px;}
+.dots{width: 13px;height: 13px;background: gray;display: inline-block;border-radius: 50%;
+cursor: pointer;}
+.fade{animation-name:fade;animation-duration:5s;}
+@keyframes fade{from {opacity:0;}to {opacity:1;}}
+.active, .dot:hover {background-color: #333;}
+.slideshow-container>.caption1{width: 100px;line-height: 20px; top: 0;
+color: white;border-radius: 25px;text-align: center;right: 0;display: block;
+margin-top: 8px;position: absolute;}
+.slideshow-container>.caption2{width: 150px;line-height: 20px;right: 0; 
+color: white;border-radius: 25px;text-align: center;bottom: 0;display: block;
+margin-right: 12px;margin-top: 8px;position: absolute;}
+.wallet{width: 80%;margin: auto; height: 50%;}
+.wallet h1{float: left;}
+.wallets{
+    height: 100%;
+    width: 100%;
+}
